@@ -1,1 +1,4 @@
-
+hexlet-js/hexlet-hello-world/node_modules/
+hexlet-git/ru-local-communities/
+*.pub
+not_key
