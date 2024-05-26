@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 50px;
+}
+
+.grid-header {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    background-color: green;
+}
+
+.grid-aside-left {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    background-color: blue;
+}
+
+.grid-aside-right {
+    grid-column: 3/3;
+    grid-row: 2/2;
+    background-color: orange;
+}
+
+.grid-main {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color: violet;
+}
+
+.grid-footer {
+    grid-column: 1/4;
+    grid-row: 3/-1;
+    background-color: purple;
+}
